@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04017B3215162AE500BEA35B /* Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = 04017B3115162AE500BEA35B /* Lists.m */; };
+		04017B3515162B4100BEA35B /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 04017B3415162B4100BEA35B /* Icon.icns */; };
+		ED35C1FA14F03986000FCAE0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED35C1F914F03986000FCAE0 /* Cocoa.framework */; };
+		ED35C20414F03986000FCAE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED35C20214F03986000FCAE0 /* InfoPlist.strings */; };
+		ED35C20614F03986000FCAE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C20514F03986000FCAE0 /* main.m */; };
+		ED35C20A14F03986000FCAE0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ED35C20814F03986000FCAE0 /* Credits.rtf */; };
+		ED35C20D14F03986000FCAE0 /* iSpellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED35C20C14F03986000FCAE0 /* iSpellAppDelegate.m */; };
+		ED35C21014F03986000FCAE0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED35C20E14F03986000FCAE0 /* MainMenu.xib */; };
+		ED35C21314F03986000FCAE0 /* iSpell_for_Mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED35C21114F03986000FCAE0 /* iSpell_for_Mac.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04017B3015162AE500BEA35B /* Lists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lists.h; sourceTree = "<group>"; };
+		04017B3115162AE500BEA35B /* Lists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lists.m; sourceTree = "<group>"; };
+		04017B3415162B4100BEA35B /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		ED35C1F514F03986000FCAE0 /* iSpell for Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSpell for Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED35C1F914F03986000FCAE0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ED35C1FC14F03986000FCAE0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ED35C1FD14F03986000FCAE0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ED35C1FE14F03986000FCAE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED35C20114F03986000FCAE0 /* iSpell for Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSpell for Mac-Info.plist"; sourceTree = "<group>"; };
+		ED35C20314F03986000FCAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED35C20514F03986000FCAE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED35C20714F03986000FCAE0 /* iSpell for Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSpell for Mac-Prefix.pch"; sourceTree = "<group>"; };
+		ED35C20914F03986000FCAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ED35C20B14F03986000FCAE0 /* iSpellAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iSpellAppDelegate.h; sourceTree = "<group>"; };
+		ED35C20C14F03986000FCAE0 /* iSpellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSpellAppDelegate.m; sourceTree = "<group>"; };
+		ED35C20F14F03986000FCAE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ED35C21214F03986000FCAE0 /* iSpell_for_Mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSpell_for_Mac.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED35C1F214F03986000FCAE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C1FA14F03986000FCAE0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED35C1EA14F03985000FCAE0 = {
+			isa = PBXGroup;
+			children = (
+				04017B3415162B4100BEA35B /* Icon.icns */,
+				ED35C1FF14F03986000FCAE0 /* iSpell for Mac */,
+				ED35C1F814F03986000FCAE0 /* Frameworks */,
+				ED35C1F614F03986000FCAE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED35C1F614F03986000FCAE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C1F514F03986000FCAE0 /* iSpell for Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED35C1F814F03986000FCAE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C1F914F03986000FCAE0 /* Cocoa.framework */,
+				ED35C1FB14F03986000FCAE0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED35C1FB14F03986000FCAE0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C1FC14F03986000FCAE0 /* AppKit.framework */,
+				ED35C1FD14F03986000FCAE0 /* CoreData.framework */,
+				ED35C1FE14F03986000FCAE0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ED35C1FF14F03986000FCAE0 /* iSpell for Mac */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C20C14F03986000FCAE0 /* iSpellAppDelegate.m */,
+				ED35C20B14F03986000FCAE0 /* iSpellAppDelegate.h */,
+				04017B3015162AE500BEA35B /* Lists.h */,
+				04017B3115162AE500BEA35B /* Lists.m */,
+				ED35C20E14F03986000FCAE0 /* MainMenu.xib */,
+				ED35C21114F03986000FCAE0 /* iSpell_for_Mac.xcdatamodeld */,
+				ED35C20014F03986000FCAE0 /* Supporting Files */,
+			);
+			path = "iSpell for Mac";
+			sourceTree = "<group>";
+		};
+		ED35C20014F03986000FCAE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED35C20114F03986000FCAE0 /* iSpell for Mac-Info.plist */,
+				ED35C20214F03986000FCAE0 /* InfoPlist.strings */,
+				ED35C20514F03986000FCAE0 /* main.m */,
+				ED35C20714F03986000FCAE0 /* iSpell for Mac-Prefix.pch */,
+				ED35C20814F03986000FCAE0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED35C1F414F03986000FCAE0 /* iSpell for Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED35C21614F03986000FCAE0 /* Build configuration list for PBXNativeTarget "iSpell for Mac" */;
+			buildPhases = (
+				ED35C1F114F03986000FCAE0 /* Sources */,
+				ED35C1F214F03986000FCAE0 /* Frameworks */,
+				ED35C1F314F03986000FCAE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSpell for Mac";
+			productName = "iSpell for Mac";
+			productReference = ED35C1F514F03986000FCAE0 /* iSpell for Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED35C1EC14F03985000FCAE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iSpell;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = ED35C1EF14F03985000FCAE0 /* Build configuration list for PBXProject "iSpell for Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED35C1EA14F03985000FCAE0;
+			productRefGroup = ED35C1F614F03986000FCAE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED35C1F414F03986000FCAE0 /* iSpell for Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED35C1F314F03986000FCAE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C20414F03986000FCAE0 /* InfoPlist.strings in Resources */,
+				ED35C20A14F03986000FCAE0 /* Credits.rtf in Resources */,
+				ED35C21014F03986000FCAE0 /* MainMenu.xib in Resources */,
+				04017B3515162B4100BEA35B /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED35C1F114F03986000FCAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED35C20614F03986000FCAE0 /* main.m in Sources */,
+				ED35C20D14F03986000FCAE0 /* iSpellAppDelegate.m in Sources */,
+				ED35C21314F03986000FCAE0 /* iSpell_for_Mac.xcdatamodeld in Sources */,
+				04017B3215162AE500BEA35B /* Lists.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED35C20214F03986000FCAE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED35C20314F03986000FCAE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED35C20814F03986000FCAE0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED35C20914F03986000FCAE0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ED35C20E14F03986000FCAE0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED35C20F14F03986000FCAE0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED35C21414F03986000FCAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED35C21514F03986000FCAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED35C21714F03986000FCAE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpell for Mac/iSpell for Mac-Prefix.pch";
+				INFOPLIST_FILE = "iSpell for Mac/iSpell for Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED35C21814F03986000FCAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSpell for Mac/iSpell for Mac-Prefix.pch";
+				INFOPLIST_FILE = "iSpell for Mac/iSpell for Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED35C1EF14F03985000FCAE0 /* Build configuration list for PBXProject "iSpell for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C21414F03986000FCAE0 /* Debug */,
+				ED35C21514F03986000FCAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED35C21614F03986000FCAE0 /* Build configuration list for PBXNativeTarget "iSpell for Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED35C21714F03986000FCAE0 /* Debug */,
+				ED35C21814F03986000FCAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED35C21114F03986000FCAE0 /* iSpell_for_Mac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED35C21214F03986000FCAE0 /* iSpell_for_Mac.xcdatamodel */,
+			);
+			currentVersion = ED35C21214F03986000FCAE0 /* iSpell_for_Mac.xcdatamodel */;
+			path = iSpell_for_Mac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED35C1EC14F03985000FCAE0 /* Project object */;
+}
